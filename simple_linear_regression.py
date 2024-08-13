@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 # Read our dataset
-data_set = pd.read_csv("/home/sam-nyalik/Desktop/ML/Salary_Data.csv")
+data_set = pd.read_csv("Salary_Data.csv")
 
 # Extract independent Variable
 x = data_set.iloc[:, :-1].values
